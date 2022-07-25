@@ -164,6 +164,18 @@
 }
 
 @media (max-width: 768px) { 
+  .national_flag_wrap {
+    flex-direction: column;
+  }
+
+  .national_flag_wrap .flag {
+    display: flex;
+  }
+
+  .national_flag_wrap .flag img{
+    margin: 20px auto;
+  }
+
   .header {
     padding: 65px 0 60px 0;}
 	.header__navigation {
@@ -274,10 +286,9 @@
     flex: 0 1 100%;}
   .files__flash-wrap {
     flex: 0 0 100px;  
-    height: 100px;
-    border: 6px solid #fff;}
+    height: 100px;}
   .files__flash-wrap-img {
-    width: 45%;}
+    width: 100%;}
   .help__box {
     padding: 20px 25px;}
   .help__box-list-item-text {

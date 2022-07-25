@@ -37,7 +37,7 @@ function message_to_telegram($text)
 
 if (
     ($_SERVER["HTTP_ORIGIN"] !== "http://localhost:3000")&&
-    ($_SERVER["HTTP_ORIGIN"] !== "https://propuskmkad-pro.ru") 
+    ($_SERVER["HTTP_ORIGIN"] !== "https://obl34.com/") 
     
     ) {
         http_response_code(403);
@@ -45,8 +45,8 @@ if (
     }
 
 
-    $to = 'asmi046@gmail.com, propuskmkad-pro@yandex.ru'; 
-    $subject = 'Обращение с сайта PropuskMkad-Pro.ru';
+    $to = 'asmi046@gmail.com, zakaz@propuska-mkad-ttk-sk.ru'; 
+    $subject = 'Обращение с сайта Obl34.com';
     $message = '
                 <html>
                     <head>
@@ -70,7 +70,7 @@ if (
 
         $headers  = "Content-type: text/html; charset=utf-8 \r\n"; 
         $headers .= "From: Заявка с сайта Пропуска МКАД <noreply@propuskmkad-pro.ru>\r\n";
-        message_to_telegram($messageBot);
+        // message_to_telegram($messageBot);
         if (mail($to, $subject, $message, $headers)) {
             http_response_code(200);
             die(array());

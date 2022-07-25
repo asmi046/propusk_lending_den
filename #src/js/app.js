@@ -4,6 +4,5 @@
 @@include('files/script.js', {})
 @@include('files/map.js', {})
 @@include('files/forms.js', {})
-@@include('files/numberinsert.js', {})
 @@include('files/aus.js', {})
 // @@include('files/scroll.js', {})

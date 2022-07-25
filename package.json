@@ -6,14 +6,14 @@
 	"private": true,
 	"license": "GNU General Public License (GPL)",
 	"scripts": {
-		"send_to_host": "cd propusk-lending && scp -C -r * propusw6_asmi@propusw6.beget.tech:propuskmkad-pro.ru/public_html",
-		"send_sender": "cd #src && scp sender.php propusw6_asmi@propusw6.beget.tech:propuskmkad-pro.ru/public_html",
+		"send_to_host": "cd propusk_lending_den && scp -C -r * manist1h_all@manist1h.beget.tech:obl34.com/public_html",
+		"send_sender": "cd #src && scp sender.php manist1h_all@manist1h.beget.tech:obl34.com/public_html",
 		"deploy": "gulp build && npm run send_to_host"
 	},
 	"devDependencies": {
 		"browser-sync": "latest",
 		"del": "latest",
-		"gulp": "latest",
+		"gulp": "^4.0.2",
 		"gulp-autoprefixer": "latest",
 		"gulp-clean-css": "latest",
 		"gulp-file-include": "latest",

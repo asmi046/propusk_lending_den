@@ -14,7 +14,6 @@
 	}
   &__inner {
     justify-content: space-between;
-    padding: 0 35px;
     margin-top: 63px;
   }
 
@@ -77,7 +76,7 @@
   }
 
   &__box-price-new {
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 24px;
     margin-bottom: 3px;
@@ -190,6 +189,40 @@
         background-position: 0 0;
         background-repeat: no-repeat;
         background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTUiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxNSAxMyI+DQogIDxpbWFnZSBpZD0iZW1haWwtb3V0bGluZSIgd2lkdGg9IjE1IiBoZWlnaHQ9IjEzIiB4bGluazpocmVmPSJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQUE4QUFBQU5DQVlBQUFCMkhqUkJBQUFBQkhOQ1NWUUlDQWdJZkFoa2lBQUFBTXhKUkVGVUtGTmovUCtDQVFUa2dGZ0l6Q0lPdkFNcWU4UUkxQndGWkN3bFRnK0txbWlRNW5sQW9VUWczZ3pFODRINFB4NkRHS0ZxZlVGcVFab1hBQm1SVUEwbmdIUUdFRi9IWW9BbVVHd0dFRnRBNVpiRE5Ec0FCVHlSSkR1QjdEWWcvZ0hFSEVCY0JjVGxRQXd6ZkR1UWZRQlpzd0pRQU9hc2JpRDdMUkJQQU9JQ0lCWUc0bElrYnozQXBobm1XbEVnb3hlSVk0QjRDUkFYQS9GckpLL2cxUXhUSndOa1BFSFNCR01TcFJtTFByQVFkVFNENHRrTGlDTndXWU5GZkFWUWJCdkZLUXhrTUZscEd3RFZuVWtaM3JmODdRQUFBQUJKUlU1RXJrSmdnZz09Ii8+DQo8L3N2Zz4NCg==');
+      }
+		}
+ 		&__viber {
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 16.8px;
+      color: #fff;
+      &::before{
+        content:'';
+        float: left;
+        width: 22px;
+        height: 22px;
+        margin-top: 3px;
+        margin-right: 10px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-image: url('../img/icons/viber.svg');
+      }
+		}
+ 		&__whatsapp {
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 16.8px;
+      color: #fff;
+      &::before{
+        content:'';
+        float: left;
+        width: 22px;
+        height: 22px;
+        margin-top: 3px;
+        margin-right: 10px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-image: url('../img/icons/whatsapp.svg');
       }
 		}
 }

@@ -7,12 +7,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
         
 
-        let classname = aus_main_feild.dataset.gzinput
-        let gznumber_c = document.getElementById(classname).value
+        // let classname = aus_main_feild.dataset.gzinput
+        // let gznumber_c = document.getElementById(classname).value
 
-        gznumber = gznumber+gznumber_c
+        // gznumber = gznumber+gznumber_c
 
-        if ((gznumber == "") || (gznumber == "А 000 АА000") || (gznumber == "А 000 АА")) {
+        if ((gznumber == "") || (gznumber == "А000АА000") || (gznumber == "А000АА")) {
             alert("Введите номер авто")
             return
         }
