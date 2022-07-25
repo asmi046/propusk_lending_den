@@ -37,7 +37,7 @@ function message_to_telegram($text)
 
 if (
     ($_SERVER["HTTP_ORIGIN"] !== "http://localhost:3000")&&
-    ($_SERVER["HTTP_ORIGIN"] !== "https://obl34.com/") 
+    ($_SERVER["HTTP_ORIGIN"] !== "https://obl34.com") 
     
     ) {
         http_response_code(403);

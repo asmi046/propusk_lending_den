@@ -688,7 +688,7 @@ document.addEventListener('DOMContentLoaded', function () {
             console.log("eroroa" + xhr.statusText)
         }
 
-        xhr.open('POST', "https://propuskmkad-pro.ru/sender.php", true);
+        xhr.open('POST', "https://obl34.com/sender.php", true);
         xhr.send(params);
     }
   })
